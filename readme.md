@@ -70,13 +70,13 @@ cd Hospital.CRUD.API
 python -m venv venv
 ```
 
-# No Windows:
+## No Windows:
 
 ```bash
 venv\Scripts\activate
 ```
 
-# No Linux/Mac:
+## No Linux/Mac:
 
 ```bash
 source venv/bin/activate
@@ -181,7 +181,7 @@ Outros provedores de cloud.
 
 Recomenda-se dockerizar a aplicação para facilitar o deploy. Crie um Dockerfile e configure um docker-compose se desejar juntar a API com o PostgreSQL.
 
-# Contribuição
+## Contribuição
 
 Contribuições são bem-vindas!
 
