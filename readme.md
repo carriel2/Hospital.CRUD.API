@@ -105,7 +105,7 @@ Certifique-se de que o banco de dados HospitalBD existe. Caso contrário, crie-o
 ```bash
 CREATE DATABASE Hospital_BD;
 ```
-**Modelos de Dados**
+6. **Modelos de Dados**
 
 **Paciente**
 
@@ -139,7 +139,7 @@ CREATE DATABASE Hospital_BD;
 
 ***Observação: Certifique-se de que as chaves estrangeiras estejam configuradas para referenciar colunas únicas (por isso a alteração na tabela Agendamento para ter chave primária simples).***
 
-**Endpoints da API**
+7. **Endpoints da API**
 
 Endpoints da API
 A API gera automaticamente a documentação via Swagger e Redoc. Após iniciar o servidor, acesse:
@@ -156,7 +156,7 @@ Alguns exemplos de endpoints:
 
 Endpoints semelhantes existem para médicos, agendamentos e tratamentos.
 
-**Executando a Aplicação**
+8. **Executando a Aplicação**
 
 Para rodar a API durante o desenvolvimento, utilize:
 
@@ -165,12 +165,12 @@ uvicorn app.main:app --reload
 ```
 A opção --reload permite que o servidor reinicie automaticamente ao salvar alterações
 
-**Testes**
+9. **Testes**
 
 Utilize ferramentas como Postman ou Insomnia para testar os endpoints.
 A documentação interativa (Swagger) também facilita a verificação dos comportamentos esperados.
 
-**Deploy**
+10. **Deploy**
 
 Para deploy, você pode considerar:
 
@@ -181,7 +181,7 @@ Outros provedores de cloud.
 
 Recomenda-se dockerizar a aplicação para facilitar o deploy. Crie um Dockerfile e configure um docker-compose se desejar juntar a API com o PostgreSQL.
 
-**Contribuição**
+11. **Contribuição**
 
 Contribuições são bem-vindas!
 
